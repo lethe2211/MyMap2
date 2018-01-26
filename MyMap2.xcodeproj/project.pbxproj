@@ -12,6 +12,7 @@
 		2A9CFD3D200A47D300438638 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9CFD3B200A47D300438638 /* Main.storyboard */; };
 		2A9CFD3F200A47D300438638 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A9CFD3E200A47D300438638 /* Assets.xcassets */; };
 		2A9CFD42200A47D300438638 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A9CFD40200A47D300438638 /* LaunchScreen.storyboard */; };
+		2A9CFD4B200A47FB00438638 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A9CFD4A200A47FB00438638 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2A9CFD3E200A47D300438638 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A9CFD41200A47D300438638 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A9CFD43200A47D300438638 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A9CFD4A200A47FB00438638 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A9CFD4B200A47FB00438638 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				2A9CFD36200A47D300438638 /* MyMap2 */,
 				2A9CFD35200A47D300438638 /* Products */,
+				2A9CFD49200A47FA00438638 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				2A9CFD43200A47D300438638 /* Info.plist */,
 			);
 			path = MyMap2;
+			sourceTree = "<group>";
+		};
+		2A9CFD49200A47FA00438638 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A9CFD4A200A47FB00438638 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,9 +287,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WJ52H9CSN;
 				INFOPLIST_FILE = MyMap2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rakuten.point.MyMap2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lethe2211.MyMap2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -289,9 +302,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6WJ52H9CSN;
 				INFOPLIST_FILE = MyMap2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rakuten.point.MyMap2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lethe2211.MyMap2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
